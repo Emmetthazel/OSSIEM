@@ -319,6 +319,18 @@ services:
             - copilot-mysql
         restart: always
 
+  keycloak:
+    image: quay.io/keycloak/keycloak:latest
+    container_name: copilot-keycloak
+    command: start-dev
+    environment:
+      KC_BOOTSTRAP_ADMIN_USERNAME: admin
+      KC_BOOTSTRAP_ADMIN_PASSWORD: MySecretIAMPassword99!
+    ports:
+      - "8080:8080"
+    networks:
+      - ossiem_default
+
 volumes:
   # Wazuh
   wazuh_api_configuration:
@@ -349,3 +361,7 @@ volumes:
   copilot-data:
   copilot-mysql_data:
   copilot_minio-data:
+
+networks:
+  ossiem_default:
+    driver: bridge
