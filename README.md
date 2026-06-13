@@ -11,7 +11,7 @@
 
 **A fully containerized, open-source SIEM platform integrating threat detection, identity management, digital forensics, and vulnerability analysis — built and validated as an academic final-year project (PFA) at EMSI Rabat.**
 
-*by BOULAHBACH Abdelkhalek & BOULAHBACH Zineb — Cybersecurity Engineering, EMSI Rabat 2026*
+*by AIT-IDIR Abdelkhalek — Cybersecurity Engineering, EMSI Rabat 2026*
 
 </div>
 
@@ -461,7 +461,7 @@ Built on top of the excellent work from [SOCFortress](https://github.com/socfort
 ---
 
 <div align="center">
-<b>BOULAHBACH Abdelkhalek & BOULAHBACH Zineb</b><br>
+<b>AIT-IDIR Abdelkhalek</b><br>
 Cybersecurity Engineering — EMSI Rabat, 2026<br>
 PFA : Mise en place d'un SIEM pour la sécurité Cloud avec gestion des identités
 </div>
